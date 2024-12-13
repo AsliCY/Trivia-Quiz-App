@@ -1,16 +1,45 @@
-# trivia_quiz_app
+# Trivia Quiz App
 
-A new Flutter project.
+A fun and interactive trivia quiz application built using Flutter. This app fetches trivia questions from the Open Trivia Database (OpenTDB) and presents them to users in a visually appealing format with a timer and scoring system.
+
+---
+
+## Features
+
+- **Dynamic Questions:** Questions are fetched from the [Open Trivia Database (OpenTDB)](https://opentdb.com/).
+- **Interactive UI:** Engaging interface with timer animations.
+- **Score Tracking:** Displays the user’s score at the end of the quiz.
+- **Responsive Design:** Works seamlessly on Android, iOS, and web platforms.
+- **Custom Animations:** Buttons vibrate on incorrect answers for better user feedback.
+
+---
+
+
+### Home Screen
+A clean and welcoming home screen:
+- Start your trivia journey with a single tap.
+
+### Quiz Screen
+- Multiple-choice questions with color-coded feedback for correct/incorrect answers.
+- Countdown timer with a circular animation.
+
+### Results Screen
+- Displays the final score at the end of the quiz.
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+To run this project, ensure you have the following installed:
+- **Flutter SDK**
+- **Dart**
+- **Android Studio or Visual Studio Code**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone this repository: git clone https://github.com/AsliCY/Trivia-Quiz-App.git
+- Navigate to the project directory: cd Trivia-Quiz-App
+- Install dependencies: flutter pub get
+- - Run the app on an emulator or physical device: flutter run
